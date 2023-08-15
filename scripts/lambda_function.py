@@ -4,9 +4,19 @@ import pandas as pd
 import boto3
 from sqlalchemy import create_engine
 import numpy as np
+import configparser
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+DB_HOST = config['database']['host']
+DB_USER = config['database']['user']
+DB_PASSWORD = config['database']['password']
+DB_NAME = config['database']['database']
 
 
-connection_string = f"mysql+mysqlconnector://admin:adminadmin@us-accredited-colleges.czndykl6wqgr.us-east-1.rds.amazonaws.com/accredited"
+
+connection_string = f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}"
 engine = create_engine(connection_string, echo=True)
 connection = engine.connect()
 
