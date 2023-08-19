@@ -47,7 +47,7 @@ validator = context.get_validator(
     expectation_suite_name=expectation_suite_name,
 )
 
-# expectations
+# edefine xpectations
 validator.expect_column_to_exist(column="serial_no")
 validator.expect_column_values_to_be_unique(column="serial_no")
 validator.expect_column_values_to_not_be_null(column="tuition")

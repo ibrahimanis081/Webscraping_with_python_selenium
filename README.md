@@ -6,8 +6,8 @@
   
    <h3 align="center">Webscraping with Selenium</h3>
 
-   [![weather-pipeline-Page-1-drawio-2.png](https://i.postimg.cc/hjgX7PNY/weather-pipeline-Page-1-drawio-2.png)](https://postimg.cc/VSGfx1f9)
- 
+[![selenium-web-scraping.png](https://i.postimg.cc/s2LbznY7/selenium-web-scraping.png)](https://postimg.cc/p9DsYJ1L)
+
 </div>
 
 
