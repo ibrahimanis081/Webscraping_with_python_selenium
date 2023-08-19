@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS us_accredited_online_colleges(
-    `s/n` INT PRIMARY KEY NOT NULL AUTO_INCREMENT, 
+    `serial_no` INT PRIMARY KEY NOT NULL AUTO_INCREMENT, 
     `school_name` VARCHAR(50),
     `tuition` BIGINT,
     `location` VARCHAR(30),

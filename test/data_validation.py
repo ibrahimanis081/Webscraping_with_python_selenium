@@ -1,9 +1,10 @@
+
 import configparser
 from logging import exception
 import great_expectations as gx
 from great_expectations.checkpoint import Checkpoint
 
-# Read the configuration
+# Read the config file
 config = configparser.ConfigParser()
 config.read('config.ini')
 
