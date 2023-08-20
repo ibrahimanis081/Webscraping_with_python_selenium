@@ -6,8 +6,7 @@
   
    <h3 align="center">Webscraping with Selenium</h3>
 
-[![selenium-web-scraping.png](https://i.postimg.cc/s2LbznY7/selenium-web-scraping.png)](https://postimg.cc/p9DsYJ1L)
-
+[![selenium-web-scraping.png](https://i.postimg.cc/fLV59Lq3/selenium-web-scraping.png)](https://postimg.cc/BLGxWq0s)
 </div>
 
 
